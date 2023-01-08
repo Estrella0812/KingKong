@@ -1,0 +1,37 @@
+body{
+    background-color: black;
+    margin: 0;
+}
+
+
+/*TOPNAV*/
+.topnav{
+}
+
+.topnav a{
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: medium;
+    padding: 25px 45px;
+}
+
+.navbar-list{
+    width: 100%;
+    text-align: center;
+}
+
+.navbar-list img{
+    margin: 15px 15px;
+}
+
+.topnav a:hover{
+    color: rgb(128, 128, 128);
+}
+
+
+
+
+
+/*Display Page*/
+

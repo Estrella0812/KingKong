@@ -1,0 +1,99 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+body{
+    background-color: black;
+    margin: 0;
+}
+
+.container{
+    /* margin: 0 15vw; */
+    max-width: 1080px;
+    background-color: black;
+    margin: auto;
+}
+
+.main-page{
+    position: relative;
+}
+
+.main-logo{
+}
+
+.main-selection-header{
+    text-align: center;
+}
+
+.main-selection-container{
+    position: absolute;
+    top: 40%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+    font-size: 16px;
+    padding: 12px 24px;
+    max-width: 60%;
+}
+
+.main-selection-list a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin-top: 2px;
+    font-weight: bold;
+    text-align: center;
+    transition: transform .1s;
+}
+
+.main-selection-container p{
+    color: gray;
+    margin-top: -20px;
+}
+
+.main-selection-list a:hover{
+    color: gray;
+    transform: scale(1.2);
+}
+
+
+
+/*Menu*/
+.set-menu{
+    color: white;
+    padding: 0vh 5vw;
+    opacity: 1;
+}
+
+.set-menu-container{
+    display:flex;
+    justify-content: center;
+    /* padding: 3vh 0; */
+}
+
+.left-column, .right-column{
+    width: 50%;
+}
+
+.left-column img, .right-column img{
+    display: inline-block;
+}
+
+
+.Tteokbokki{
+    color: white;
+    padding: 20vh 5vw;
+    opacity: 0;
+}
+
+
+
+.noAnimation{
+    opacity: 1;
+}
+
+.bounceInUp{
+    animation: fadeInUp;
+    animation-duration: 2s;
+    opacity: 1;
+}

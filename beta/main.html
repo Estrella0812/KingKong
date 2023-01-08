@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel = "stylesheet" href = "main.css">
+    <title>King Kong Tteokbokki</title>
+</head>
+<body onload = "onLoad()">
+  <!--TOPNAV-->
+    <header>
+        <div class="topnav">
+            <a class="navbar-logo" href="#"><img src="src/logo.png"></a>
+            <i class="fa fa-reorder" id = "menuicon" onclick = "toggleMenu()"></i>
+            <div class="navbar-list">
+                <a href="#section-about" class="nav-link">About</a>
+                <a href="pdfs/sariwon-menu.pdf" class="nav-link" target="_blank">Menu</a>
+                <a href="#section-frozen-stews" class="nav-link">Location</a>
+                <a href="#section-frozen-meat" class="nav-link">Open Hours</a>
+                <a href="tel:9058815103" class="nav-link">(905) 597-8868</a>
+            </div>
+        </div>
+    </header>
+ 
+    <!--slideshow-->
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+          <img src="src/ex-banner2.jpg" style="width:100%">
+        </div>
+        <!-- <div class="mySlides fade">
+          <img src="src/banner_img_2.jpg" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+          <img src="src/banner_img_3.jpg" style="width:100%">
+        </div> -->
+        <div class = "dot-bar" style="text-align: center;">
+            <span><i class="fa fa-circle" onclick="currentSlide(1)"></i></span>
+            <span><i class="fa fa-circle-o" onclick="currentSlide(1)"></i></span>
+          <span><i class="fa fa-circle-o" onclick="currentSlide(1)"></i></span>
+        </div>
+      </div>
+
+    
+    <!--Information Section-->
+    <div class="information-section" style="background-color: #dfdfdf;">
+        <div class = "information-section-list">
+            <i class="fa fa-phone"><p>(905) 597-8868</p></i>
+        </div>
+        <div class = "information-section-list">
+            <i class="fa fa-clock-o"><p id = "today-schedule">TIME</p></i>
+        </div>
+        <div class = "information-section-list">
+            <i class="fa fa-map-marker"><p>7325 Yonge St, Thornhill, ON L3T 2B2</p></i>
+        </div>
+    </div>
+
+    <!--ABT-->
+    <div class = "aboutContainer">
+      <div class = "about">
+        <div class = "aboutText">
+          <h1>
+            DYNAMITE
+          </h1>
+          <p>
+            Shoes on, get up in the morn'
+            Cup of milk, let's rock and roll
+            King Kong, kick the drum,
+          </p>
+          <p>
+            rolling on like a Rolling Stone
+            Sing song when I'm walking home
+            Jump up to the top, LeBron
+          </p>
+          <p>
+            Ding dong, call me on my phone
+            Ice tea and a game of ping pong, huh
+          </p>
+        </div>
+      </div>
+      <div class = "about">
+        <img src = "src/sample logo.jpg">
+      </div>
+    </div>
+
+
+
+    <!--LOCATION/TIME-->
+    <div class = "Location-Container">
+      <div class = "Location-Container-list">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2879.4032994200516!2d-79.42333638421918!3d43.80599335055456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b2d98ecdb0197%3A0x39708c85e7661b4a!2sKingKong%20Tteokbokki!5e0!3m2!1sen!2sca!4v1667524927314!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div class = "Location-Container-list">
+        <div class = "Location-Time">
+          <h1>
+            OPEN HOURS
+          </h1>
+          <p>Monday Closed</p>
+          <p> Tuesday 11:30am - 10pm</p>
+          <p> Thursday 11:30am - 10pm</p>
+          <p> Wednesday 11:30am - 10pm</p>
+          <p> Friday 11:30am - 10pm</p>
+          <p> Satuarday 11:30am - 10pm</p>
+          <p> Sunday 11:30am - 10pm</p>
+        </div>
+      </div>
+    </div>
+    
+    
+
+
+    <script src="main.js"></script>
+</body>
+</html>
